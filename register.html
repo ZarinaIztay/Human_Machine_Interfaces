@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Стоматология</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<fieldset>
+ 
+  <h4>Регистрация</h4>
+  <form action="handler.php" method="post">
+
+  <p><input name="name" placeholder = "Имя"></p>
+
+  <p><input name="fam" placeholder="Фамилия"></p>
+  <p><input type="password" name="pass" placeholder="Пароль"></p>
+
+  <p><input type="date" name="calendar" value="2020-10-05" max="2020-12-31" min="2020-10-01"></p>
+
+<p>
+	<select name = "name" size = "1" >
+		<option value = "Pentium3">Пол</option>
+		<option value = "Pentium2"> Мужчина</option>
+		<option value = "Pentium3"> Женщина</option>
+	</select >
+</p>
+  
+	<p>Оставаться в системе?</p>
+  <p>  <input type = "RADIO" value = "FALSE" name = "CHECK" CHECKED>Да<BR> </p>
+  <p>  <input type = "RADIO" value = "FALSE" name = "CHECK" CHECKED>Нет<BR> </p>
+
+  <p><input type="submit"></p>
+
+	</form>
+</fieldset>
+ </body>
+</html>
